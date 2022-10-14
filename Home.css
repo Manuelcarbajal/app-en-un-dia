@@ -1,0 +1,85 @@
+body{
+    margin: 0px 
+    
+}
+.encabezado{
+    font-family: 'Combo', cursive;
+    height: 200px;
+    background-color: black;
+    color:#8a9597;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+/* Links/wrappe */
+.links-wrappe{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.links-wrappe > .nav-link{
+    width:300px; /* Espacio de links */
+    text-align:center;
+    font-size: 1.5em;
+}
+
+.links-wrappe > .nav-link a {
+    text-decoration: none;
+    color:white;
+}
+
+.links-wrappe > .nav-link:hover a {
+    color:white;
+}
+
+
+
+.links-wrappe > .name {
+   font-size: 1.5em;
+} 
+
+
+/* eslogan */
+.Slogan{
+    font-family: 'Combo', cursive;
+    height:500px;
+    width:100%;
+    background-color: #8a9597;
+   display:grid;
+   grid-template-columns: 2fr 1fr;
+   
+}
+.Slogan > .imge img{
+    height:500px;
+    width: 100%;
+    
+ }
+ 
+
+ .Slogan > .text{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 6em;
+   
+ } 
+
+ 
+
+/* Footer */
+.footer{
+    font-family: 'Combo', cursive;
+    height:200px;
+    background-color: black;
+    color:#8a9597;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.footer > .links-wrappe > .name a{
+    display: flex;
+    align-items:flex-end;
+}
